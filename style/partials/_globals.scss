@@ -1,0 +1,145 @@
+@import './variables';
+
+* {
+    box-sizing: border-box;
+    font-size: 18px;
+    color: $color-title-blue;
+}
+
+body {
+    font-family: $font-text;
+}
+
+.container, header {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: $color-bg-light;
+}
+
+section {
+    margin: 40px 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $font-title;
+    color: $color-title-blue;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em; 
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: $color-title-blue;
+}
+
+.main-intro {
+    text-align: center;
+}
+
+.main-primary {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    div {
+        width: 100%;
+    }
+}
+
+.color-intro {
+    padding: 20px;
+    background-color: $color-black;
+
+    h1, p {
+        color: $color-white;
+    }
+}
+
+.button {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+
+    a {
+        padding: 5px 20px;
+        background-color: $color-title-blue;
+        color: $color-white;
+    }
+}
+
+.card {
+    position: relative;
+    border-radius: 10px;
+    height: 400px;
+    margin: 20px 0;
+    overflow: hidden;
+
+    div {
+        position: absolute;
+        bottom: 0;
+        height: 40%;
+        bottom: 0;
+        background-color: $color-white;
+        padding: 20px;
+
+        span {
+            margin-right: 30px;
+        }
+
+        p {
+            color: $color-white;
+            margin-top: 15px;
+        }
+    }
+}
+
+.date {
+    background-color: #00000080;
+    color: $color-white;
+    padding: 0 5px;
+    font-size: 14px;
+    width: fit-content;
+}
+
+.ui {
+    color: #a824b9;
+    background-color: #a824b980;
+    padding: 0 5px;
+    font-size: 18px;   
+}
+
+.css {
+    color: #15a379;
+    background-color: #15a37980;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+.html {
+    color: #bd8919;
+    background-color: #bd891980;
+    padding: 0 5px;
+    font-size: 18px;
+}

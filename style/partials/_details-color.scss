@@ -1,0 +1,86 @@
+.main-intro {
+    text-align: center;
+    margin-top: 0;
+}
+
+.cultur, .marks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0;
+} 
+
+.cultur-card {
+    width: 100%;
+    background-color: $color-white;
+    border-radius: 20px;
+    padding: 30px 20px;
+
+    h4 {
+        margin-top: 0;
+    }
+
+    p, ul {
+        margin-top: 20px;
+    }
+
+    ul {
+        list-style-type: disc;
+        margin-left: 30px;
+    }
+}
+
+.mark-card {
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    background-color: $color-white;
+    border-radius: 20px;
+    overflow: hidden;
+
+    .mark-logo {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    h4 {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .cultur-card {
+        width: 45%;
+    }
+
+    .mark-card {
+        width: 31%;
+        height: 300px;
+    }    
+}
+
+@media screen and (min-width: 1100px) {
+    .color-prim {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        div {
+            width: 45%;
+
+            .cultur-card {
+                width: 100%;
+            }
+        }
+    }
+}

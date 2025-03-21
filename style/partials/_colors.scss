@@ -1,0 +1,43 @@
+.card-blue {
+    background-color: $color-blue;
+}
+
+.card-white {
+    background-color: $color-white;
+}
+
+.card-grey {
+    background-color: $color-grey;
+}
+
+.card-yellow {
+    background-color: $color-yellow;
+}
+
+.card-orange {
+    background-color: $color-orange;
+}
+
+.card-pink {
+    background-color: $color-pink;
+}
+
+.card-purple {
+    background-color: $color-purple;
+}
+
+.card-brown {
+    background-color: $color-brown;
+}
+
+.card-gold {
+    background-color: $color-gold;
+}
+
+@media screen and (min-width: 769px) {
+    .color-cards {
+        display: flex;
+        gap: 20px;
+
+    }
+}

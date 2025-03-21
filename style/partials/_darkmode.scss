@@ -1,0 +1,40 @@
+.toggle-dark {
+    display: none;
+
+    &:checked ~ .wrapper {
+        background-color: $color-bg-dark;
+
+        header{
+            background-color: $color-bg-dark;
+        }
+
+        main {
+            border-top: 1px solid $color-white;
+            border-bottom: 1px solid $color-white;
+
+            .container {
+                background-color: $color-bg-dark;
+            }
+
+            .main-intro p {
+                color: $color-white;
+            }
+            
+            .card {
+                border: 1px solid $color-white;
+
+                div {
+                    background-color: $color-bg-dark;
+                }
+            }
+        }
+
+        footer {
+            background-color: $color-bg-dark;
+
+            p {
+                color: $color-white;
+            }
+        }
+    }
+}
