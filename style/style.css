@@ -176,6 +176,7 @@ header nav ul li {
 }
 .toggle-icon i {
   font-size: 30px;
+  cursor: pointer;
 }
 
 .menu-icon {
