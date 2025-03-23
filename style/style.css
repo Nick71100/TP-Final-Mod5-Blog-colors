@@ -155,6 +155,7 @@ header nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
   flex-direction: column;
 }
 header nav ul li {
@@ -183,16 +184,17 @@ header nav ul li {
   .menu-icon {
     display: none;
   }
-  nav {
+  .navbar {
     display: flex;
     position: static;
+    width: auto;
     background-color: #fff;
     max-height: none;
   }
-  nav ul {
+  .navbar ul {
     flex-direction: row;
   }
-  nav li {
+  .navbar ul li {
     margin-left: 20px;
   }
   nav a {
@@ -212,6 +214,15 @@ header nav ul li {
 }
 .toggle-dark:checked ~ .wrapper header {
   background-color: #333333;
+}
+.toggle-dark:checked ~ .wrapper header .toggle-icon i {
+  color: #fff;
+}
+.toggle-dark:checked ~ .wrapper header .nav-links {
+  background-color: #333333;
+}
+.toggle-dark:checked ~ .wrapper header .nav-links a {
+  color: #fff;
 }
 .toggle-dark:checked ~ .wrapper main {
   border-top: 1px solid #fff;

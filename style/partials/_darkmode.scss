@@ -6,6 +6,18 @@
 
         header{
             background-color: $color-bg-dark;
+
+            .toggle-icon  i {
+                color: #fff;
+            }
+
+            .nav-links {
+                background-color: $color-bg-dark;
+
+                a {
+                    color: #fff;
+                }
+            }
         }
 
         main {
