@@ -11,6 +11,10 @@
     margin: 30px 0;
 } 
 
+.color-prim p, .color-sec p {
+    margin-top: 20px;
+}
+
 .cultur-card {
     width: 100%;
     background-color: $color-white;
@@ -21,7 +25,7 @@
         margin-top: 0;
     }
 
-    p, ul {
+    ul {
         margin-top: 20px;
     }
 
