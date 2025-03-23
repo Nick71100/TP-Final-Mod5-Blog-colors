@@ -63,7 +63,6 @@ a {
 
 .color-intro {
   padding: 20px;
-  background-color: #010101;
 }
 .color-intro h1, .color-intro p {
   color: #fff;
@@ -443,6 +442,57 @@ header nav ul li {
     width: 100%;
   }
 }
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: #0323da;
+}
+
+.brown {
+  background-color: #524417;
+}
+
+.gold {
+  background-color: #b4a621;
+}
+
+.green {
+  background-color: #00694b;
+}
+
+.grey {
+  background-color: #7c7e81;
+}
+
+.orange {
+  background-color: #f09104;
+}
+
+.pink {
+  background-color: #f184ec;
+}
+
+.purple {
+  background-color: #8909f1;
+}
+
+.red {
+  background-color: #c01a1c;
+}
+
+.white {
+  background-color: #fff;
+}
+.white p, .white h1 {
+  color: #3d6878;
+}
+
+.yellow {
+  background-color: #f1e209;
+}
+
 footer {
   text-align: center;
   padding: 20px 0;
