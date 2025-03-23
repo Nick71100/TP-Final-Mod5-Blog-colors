@@ -5,6 +5,11 @@ header {
     position: relative;
     background-color: $color-white;
 
+    .header-box-right {
+        display: flex;
+        align-items: baseline;
+    }
+
     nav {
         display: block;
         position: absolute;
@@ -36,9 +41,20 @@ header {
     height: auto;
 }
 
+.toggle-icon {
+    margin-right: 20px;
+
+    i {
+        font-size: 30px;
+    }
+}
+
 .menu-icon {
-    font-size: 20px;
     cursor: pointer;
+
+    i {
+        font-size: 30px;
+    }
 }
 
 .menu-toggle {
@@ -52,6 +68,10 @@ header {
 @media screen and (min-width: 769px) {
     .menu-icon {
         display: none;
+    }
+
+    .toggle-icon i {
+        font-size: 18px;
     }
 
     .navbar {

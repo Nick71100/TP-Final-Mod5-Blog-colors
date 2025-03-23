@@ -139,6 +139,10 @@ header {
   position: relative;
   background-color: #fff;
 }
+header .header-box-right {
+  display: flex;
+  align-items: baseline;
+}
 header nav {
   display: block;
   position: absolute;
@@ -167,9 +171,18 @@ header nav ul li {
   height: auto;
 }
 
+.toggle-icon {
+  margin-right: 20px;
+}
+.toggle-icon i {
+  font-size: 30px;
+}
+
 .menu-icon {
-  font-size: 20px;
   cursor: pointer;
+}
+.menu-icon i {
+  font-size: 30px;
 }
 
 .menu-toggle {
@@ -183,6 +196,9 @@ header nav ul li {
 @media screen and (min-width: 769px) {
   .menu-icon {
     display: none;
+  }
+  .toggle-icon i {
+    font-size: 18px;
   }
   .navbar {
     display: flex;
@@ -216,6 +232,9 @@ header nav ul li {
   background-color: #333333;
 }
 .toggle-dark:checked ~ .wrapper header .toggle-icon i {
+  color: #fff;
+}
+.toggle-dark:checked ~ .wrapper header .menu-icon i {
   color: #fff;
 }
 .toggle-dark:checked ~ .wrapper header .nav-links {
